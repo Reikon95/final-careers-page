@@ -24,3 +24,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.item {
+  margin: 10px;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+}

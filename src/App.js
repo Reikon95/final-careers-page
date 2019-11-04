@@ -4,15 +4,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h1>Welcome to our Startup - Meet the team.</h1>
       <div class="container">
         <div class="item">
-        A
+        Normal Picture
         </div>
         <div class="item">
-        A
+        Picture with mustache
         </div>
         <div class="item">
-        A
+        Hat
         </div>
         <div class="item">
          A 
