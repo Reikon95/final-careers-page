@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import face from './face.png';
 
 function App() {
   return (
@@ -7,22 +8,22 @@ function App() {
       <h1>Welcome to our Startup - Meet the team.</h1>
       <div class="container">
         <div class="item">
-        Normal Picture
+          <img src={face} alt="a face"/>
         </div>
         <div class="item">
-        Picture with mustache
+          <img src={face} alt="a face"/>
         </div>
         <div class="item">
-        Hat
+          <img src={face} alt="a face"/>
         </div>
         <div class="item">
-         A 
+          <img src={face} alt="a face"/>
         </div>
         <div class="item">
-        A
+          <img src={face} alt="a face"/>
         </div>
         <div class="item">
-        A  
+          <img src={face} alt="a face"/>
         </div>
       </div>
     </div>
