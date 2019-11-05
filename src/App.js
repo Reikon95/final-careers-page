@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import face from './face.png';
+import Face from './Face.js'
 
-function App() {
+class App extends Component {
+  render() {
   return (
     <div className="App">
       <h1>Welcome to our Startup - Meet the team!</h1>
@@ -11,38 +12,32 @@ function App() {
       </p>
       <div className="container">
         <div className="item">
-          <img src={face} alt="a face"/>
-          Elon Musk
+          <Face name="Elon Musk"/>
           <br></br>CEO
         </div>
         <div className="item">
-          <img src={face} alt="a face"/>
-          Bill Gates
+          <Face name="Bill Gates"/>
           <br></br>CTO
         </div>
         <div className="item">
-          <img src={face} alt="a face"/>
-          Jeff Bezos
+          <Face name="Jeff Bezos"/>
           <br></br>COO
         </div>
         <div className="item">
-          <img src={face} alt="a face"/>
-          Jack Dorsey
+          <Face name="Jack Dorsey"/>
           <br></br>Back End Developer
         </div>
         <div className="item">
-          <img src={face} alt="a face"/>
-          Mark Zuckerberg
+          <Face name="Mark Zuckerberg"/>
           <br></br>Front End Developer
         </div>
         <div className="item">
-          <img src={face} alt="a face"/>
-          Larry Page
+          <Face name="Larry Page"/>
           <br></br>Full Stack Developer
         </div>
       </div>
     </div>
-  );
+  )};
 }
 
 export default App;
