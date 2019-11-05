@@ -5,17 +5,14 @@ import face from './face.png';
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to our Startup!</h1>
+      <h1>Welcome to our Startup - Meet the team!</h1>
       <p>We're here to disrupt, democratise and dominate a legacy industry. We've come together to form a superteam, an all-star lineup 
-        of the internet's greatest entrepeneurs. 
+        of the internet's greatest entrepeneurs. Hover over us to reveal our identities....
       </p>
-      <h1>Meet the team!</h1>
       <div className="container">
         <div className="item">
           <img src={face} alt="a face"/>
           Elon Musk
-          <div className="overlay">Elon's spent the past few years launching cars into space and misbehaving on Twitter. He's taking the lead
-          as our visionary CEO!</div>
           <br></br>CEO
         </div>
         <div className="item">

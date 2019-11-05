@@ -47,8 +47,4 @@ img {
   margin-left: 1.5%;
   display: none;
 }
-.item:hover .overlay {
-  display: block;
-  bottom: 0;
-  height: 100%;
-}
+
