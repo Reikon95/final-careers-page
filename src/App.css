@@ -36,3 +36,12 @@ img {
   background-color: black;
   color: white;
 }
+.overlay {
+  background-color: black;
+  display: none;
+  position: relative;
+  bottom: 0;
+}
+.item:hover .overlay {
+  display: block;
+}
