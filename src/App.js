@@ -10,35 +10,35 @@ function App() {
         of the internet's greatest entrepeneurs. 
       </p>
       <h1>Meet the team!</h1>
-      <div class="container">
-        <div class="item">
+      <div className="container">
+        <div className="item">
           <img src={face} alt="a face"/>
           Elon Musk
-          <p class="overlay">Elon's spent the past few years launching cars into space and misbehaving on Twitter. He's taking the lead
-          as our visionary CEO!</p>
+          <div className="overlay">Elon's spent the past few years launching cars into space and misbehaving on Twitter. He's taking the lead
+          as our visionary CEO!</div>
           <br></br>CEO
         </div>
-        <div class="item">
+        <div className="item">
           <img src={face} alt="a face"/>
           Bill Gates
           <br></br>CTO
         </div>
-        <div class="item">
+        <div className="item">
           <img src={face} alt="a face"/>
           Jeff Bezos
           <br></br>COO
         </div>
-        <div class="item">
+        <div className="item">
           <img src={face} alt="a face"/>
           Jack Dorsey
           <br></br>Back End Developer
         </div>
-        <div class="item">
+        <div className="item">
           <img src={face} alt="a face"/>
           Mark Zuckerberg
           <br></br>Front End Developer
         </div>
-        <div class="item">
+        <div className="item">
           <img src={face} alt="a face"/>
           Larry Page
           <br></br>Full Stack Developer
